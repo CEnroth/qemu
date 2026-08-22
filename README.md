@@ -7,5 +7,5 @@ Div QEMU configurations
 '''bash
 curl -sSLf https://github.com/cenroth/1.sh | sudo sh
 
-curl -sSLf https://din-doman.com | bash
+curl -sSLf https://din-doman.com/2.sh | bash
 '''
