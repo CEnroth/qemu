@@ -22,10 +22,8 @@ qemu-system-x86_64 -m 512M -accel kvm -cdrom alpine-virt-3.19.1-x86_64.iso
 
 ```bash
 qemu-system-x86_64 -m 512M -accel kvm -cdrom alpine-virt-3.19.1-x86_64.iso -vga qxl -spice port=5900,addr=127.0.0.1,disable-ticketing=on &
-```
 
-Anslut med SPICE-klienten (i en ny terminal):
-```bash
+# Anslut med SPICE-klienten (i en ny terminal):
 remote-viewer spice://127.0.0.1:5900
 ```
 
