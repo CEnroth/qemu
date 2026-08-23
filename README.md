@@ -68,6 +68,12 @@ curl -sSLf ... | sudo sh
 
 #### Setup Siduction Desktop V:1 (sh)
 
+Börja med att skapa en ny mapp/folder där alla filer samlas
+```bash
+mkdir siduction
+cd siduction
+```
+
 Skapa en virtuell hårddisk
 ```bash
 qemu-img create -f qcow2 siduction-disk.qcow2 30G
