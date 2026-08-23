@@ -6,9 +6,23 @@
 
 <br>
 
-
-
 ## Various scripts to install Linux Desktop OS
+
+<br>
+
+### Alpine Linux
+
+#### Run Alpine Linux without installation (no accelerated grapics)
+
+```bash
+qemu-system-x86_64 -m 512M -accel kvm -cdrom alpine-virt-3.19.1-x86_64.iso
+```
+
+#### Run Alpine Linux without installation (accelerated grapics with Spice)
+
+```bash
+qemu-system-x86_64 -m 512M -accel kvm -cdrom alpine-virt-3.19.1-x86_64.iso -vga qxl -spice port=5900,addr=127.0.0.1,disable-ticketing=on &
+```
 
 <br>
 
