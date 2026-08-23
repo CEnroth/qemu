@@ -2,15 +2,6 @@
 
 Detta dokument beskriver de nödvändiga testerna för att säkerställa att din dator är helt redo att köra QEMU med hårdvaruacceleration och snabb SPICE-grafik.
 
-## 📊 Senaste testresultat
-
-* **QEMU Emulator:** $QEMU_STATUS
-* **KVM Acceleration:** $KVM_STATUS
-* **Diskverktyg (qemu-img):** $IMG_STATUS
-* **SPICE-klient:** $SPICE_STATUS
-
----
-
 ## 🛠️ Manuella kontrollkommandon
 
 Om du vill verifiera statusen manuellt i terminalen kan du köra följande kommandon:
