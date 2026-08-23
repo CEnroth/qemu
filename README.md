@@ -6,7 +6,11 @@
 
 <br>
 
+
+
 ## Various scripts to install Linux Desktop OS
+
+### Debian Desktop
 
 #### Setup Debian Desktop V:1 (sh)
 ```bash
@@ -18,12 +22,12 @@ curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-deskto
 curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.1.sh | bash
 ```
 
-### Setup Debian Desktop V:2 (bash)
+#### Setup Debian Desktop V:2 (bash)
 ```bash
 curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.2.sh | bash
 ```
 
-### Setup Debian Desktop V:3 (bash)
+#### Setup Debian Desktop V:3 (bash)
 ```bash
 curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.3.sh | bash
 ```
