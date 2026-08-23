@@ -1,19 +1,17 @@
 # How to run QEMU on Linux
-Div QEMU configurations 
 
 
 ## Install QEMU on Debian
 
+[Install](https://github.com/CEnroth/qemu/blob/main/documents/INSTALL.md)
+
 
 ## Verify that QEMU is installed and working
 
-[Här är länktexten](https://exempel.se)
+[Verify](https://github.com/CEnroth/qemu/blob/main/documents/VERIFY.md)
 
 
 ## Various scripts to install Linux Desktop OS
-
-[Här är länktexten](https://exempel.se)
-
 
 ### Setup Debian Desktop V:1 (sh)
 ```bash
