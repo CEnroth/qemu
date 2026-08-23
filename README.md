@@ -64,6 +64,47 @@ curl -sSLf ... | sudo sh
 
 <br>
 
+### Siduction Linux
+
+#### Setup Siduction Desktop V:1 (sh)
+
+Skapa en virtuell hårddisk
+```bash
+qemu-img create -f qcow2 siduction-disk.qcow2 30G
+```
+
+Starta Siduction i QEMU (utan accelererad grafik)
+```bash
+qemu-system-x86_64 \
+  -m 4G \
+  -smp 4 \
+  -accel kvm \
+  -vga qxl \
+  -device intel-hda -device hda-output \
+  -hda siduction-disk.qcow2 \
+  -cdrom siduction.iso \
+  -boot d
+```
+
+Starta Siduction i QEMU (med accelererad grafik)
+```bash
+qemu-system-x86_64 \
+  -m 4G \
+  -smp 4 \
+  -accel kvm \
+  -hda siduction-disk.qcow2 \
+  -cdrom siduction.iso \
+  -boot d \
+  -vga qxl \
+  -spice port=5900,addr=127.0.0.1,disable-ticketing=on \
+  -device virtio-serial-pci \
+  -device virtserialport,chardev=spicechannel0,name=com.redhat.spice.0 \
+  -chardev spicevmc,id=spicechannel0,name=vdagent \
+  -display none &
+```
+
+<br>
+
 ### Ubuntu Desktop
 
 #### Setup Ubuntu Desktop V:1 (sh)
