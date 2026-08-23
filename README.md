@@ -1,14 +1,8 @@
 # How to run QEMU on Linux
 
+[Install QEMU on Debian](https://github.com/CEnroth/qemu/blob/main/documents/INSTALL.md)
 
-## Install QEMU on Debian
-
-[Install](https://github.com/CEnroth/qemu/blob/main/documents/INSTALL.md)
-
-
-## Verify that QEMU is installed and working
-
-[Verify](https://github.com/CEnroth/qemu/blob/main/documents/VERIFY.md)
+[Verify that QEMU is installed and working](https://github.com/CEnroth/qemu/blob/main/documents/VERIFY.md)
 
 
 ## Various scripts to install Linux Desktop OS
