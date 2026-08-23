@@ -4,7 +4,7 @@
 
 [Verify that QEMU is installed and working](https://github.com/CEnroth/qemu/blob/main/documents/VERIFY.md)
 
-
+<br>
 
 ## Various scripts to install Linux Desktop OS
 
