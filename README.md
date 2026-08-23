@@ -1,5 +1,7 @@
 # How to run QEMU on Linux
 
+Before one can create and run virtual Linux Desktop OS, QEMU needs to be installed and verifyed.
+
 [Install QEMU on Debian](https://github.com/CEnroth/qemu/blob/main/documents/INSTALL.md)
 
 [Verify that QEMU is installed and working](https://github.com/CEnroth/qemu/blob/main/documents/VERIFY.md)
