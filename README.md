@@ -7,9 +7,14 @@ Div QEMU configurations
 ### Setup Debian Desktop
 
 ```bash
-curl -sSLf https://github.com/cenroth/qemu/1.sh | sudo sh
-curl -sSLf https://github.com/cenroth/qemu/2.sh | bash
-curl -sSLf https://github.com/CEnroth/qemu/blob/main/1.sh | bash
+curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.1.sh | sudo sh
 ```
-
-
+```bash
+curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.1.sh | bash
+```
+```bash
+curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.2.sh | bash
+```
+```bash
+curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.3.sh | bash
+```
