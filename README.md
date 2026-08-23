@@ -114,6 +114,16 @@ Anslut med SPICE-klienten (i en ny terminal)
 remote-viewer spice://127.0.0.1:5900
 ```
 
+Extra tips inuti Siduction (Live-miljön)
+När Siduction har startat upp i sitt live-läge, öppna ett terminalfönster inuti den virtuella maskinen och kontrollera att SPICE-agenten körs
+```bash
+sudo systemctl status spice-vdagent
+```
+Om den inte är startad kan du aktivera den med 
+```bash
+sudo systemctl start spice-vdagent
+```
+
 <br>
 
 ### Ubuntu Desktop
