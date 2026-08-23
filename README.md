@@ -27,7 +27,7 @@ qemu-system-x86_64 -m 512M -accel kvm -cdrom alpine-virt-3.19.1-x86_64.iso -vga 
 Anslut med SPICE-klienten (i en ny terminal):
 ```bash
 remote-viewer spice://127.0.0.1:5900
-```bash
+```
 
 <br>
 
