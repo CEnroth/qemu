@@ -31,3 +31,23 @@ curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-deskto
 ```bash
 curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/setup-debian-desktop.3.sh | bash
 ```
+
+<br>
+
+### Redhat Desktop
+
+#### Setup Redhat Desktop V:1 (sh)
+```bash
+curl -sSLf ... | sudo sh
+```
+
+<br>
+
+### Ubuntu Desktop
+
+#### Setup Ubuntu Desktop V:1 (sh)
+```bash
+curl -sSLf ... | sudo sh
+```
+
+<br>
