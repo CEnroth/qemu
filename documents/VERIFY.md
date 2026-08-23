@@ -2,6 +2,14 @@
 
 Detta dokument beskriver de nödvändiga testerna för att säkerställa att din dator är helt redo att köra QEMU med hårdvaruacceleration och snabb SPICE-grafik.
 
+## 🛠️ Automatiskt verifierings script
+
+```bash
+curl -sSLf https://github.com/CEnroth/qemu/blob/main/scripts/verify-qemu.sh | sudo sh
+```
+
+<br>
+
 ## 🛠️ Manuella kontrollkommandon
 
 Om du vill verifiera statusen manuellt i terminalen kan du köra följande kommandon:
