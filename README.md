@@ -103,6 +103,11 @@ qemu-system-x86_64 \
   -display none &
 ```
 
+Anslut med SPICE-klienten (i en ny terminal)
+```bash
+remote-viewer spice://127.0.0.1:5900
+```
+
 <br>
 
 ### Ubuntu Desktop
