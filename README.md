@@ -66,7 +66,7 @@ curl -sSLf ... | sudo sh
 
 ### Siduction Linux
 
-#### Setup Siduction Desktop V:1 (sh)
+#### Setup Siduction Desktop
 
 Börja med att skapa en ny mapp/folder där alla filer samlas
 ```bash
